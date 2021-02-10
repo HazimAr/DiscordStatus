@@ -3,7 +3,7 @@ Change your discord status to a random fact of the day
 
 To use this discord status changer folow these steps:
 ```
-1. Download the code and unzip it to a permanent location in your files. MAKE SURE YOU DONT MOVE THE FOLDER AFTER CHOOSING A SPECIFIC FILE PATH. 
+1. Download the code and unzip it to a permanent location in your files. MAKE SURE YOU DONT MOVE THE FOLDER AFTER CHOOSING.
 ```
 ```
 2. Make sure discord is maximized on your main screen if you have multiple monitors.
