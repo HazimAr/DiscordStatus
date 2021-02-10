@@ -1,7 +1,7 @@
 # DiscordStatus
 Change your discord status to a random fact of the day
 
-To use this discord status changer
+To use this discord status changer folow these steps:
 ```
 1. Make sure discord is maximized on your main screen if you have multiple monitors.
 ```
