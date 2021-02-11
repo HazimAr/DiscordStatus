@@ -5,9 +5,7 @@ import requests
 from time import sleep
 from googletrans import Translator
 
-translator = Translator(service_urls=[
-    'translate.google.com',
-])
+translator = Translator()
 
 api_url = 'https://uselessfacts.jsph.pl/today.json'
 
@@ -56,3 +54,6 @@ def set_new_status():
     keyboard.press_and_release('enter')
 
 set_new_status()
+
+
+
