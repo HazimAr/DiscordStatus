@@ -23,8 +23,8 @@ if response['language'] != 'en':
         src=response['language']
     )
 
-useless_fact = response.text
-new_status = f'Fact: {useless_fact} This status Changes every day'
+useless_fact = response['text']
+new_status = f'Fact: {useless_fact}'
 
 ##########################################################################
 
@@ -45,9 +45,9 @@ def press_in_a_certian_place(position):
 def set_new_status():
     press_in_a_certian_place(pfp)
     press_in_a_certian_place(pfp)
-    sleep(0.15)
+    sleep(0.2)
     press_in_a_certian_place(status)
-    sleep(0.15)
+    sleep(0.2)
     press_in_a_certian_place(clear)
     press_in_a_certian_place(clear)
     keyboard.write(new_status)
