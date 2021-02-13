@@ -22,7 +22,7 @@ if response['language'] != 'en':
         response['text'],
         src=response['language']
     )
-    useless_fact = response
+    useless_fact = response.text
 else:
     useless_fact = response['text']
 
@@ -56,6 +56,3 @@ def set_new_status():
     keyboard.press_and_release('enter')
 
 set_new_status()
-
-
-
