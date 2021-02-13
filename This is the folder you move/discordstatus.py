@@ -22,8 +22,10 @@ if response['language'] != 'en':
         response['text'],
         src=response['language']
     )
+    useless_fact = response
+else:
+    useless_fact = response['text']
 
-useless_fact = response['text']
 new_status = f'Fact: {useless_fact}'
 
 ##########################################################################
